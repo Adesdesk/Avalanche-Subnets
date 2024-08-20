@@ -4,6 +4,7 @@ Avalanche-Subnets
 ## Description
 
 Project: Defi Empire, A Simple DeFI Kingdom Clone
+
 A practice project that demonstrates how to set up one's very own EVM subnet on Avalanche, an excellent starting point for building a DeFi Kingdom clone. This project covers aspects such as creating and deploying a custom subnet, and then deploying two smart contracts onto it: an ERC20 token contract and a Vault contract. The contracts serve as the foundational building blocks for my DeFi Kingdom clone, allowing me to explore the exciting world of decentralized finance and take steps towards building my very own DeFi empire.
 
 ## Getting Started
@@ -18,6 +19,23 @@ git clone https://github.com/Adesdesk/Avalanche-Subnets.git
 ``` 
 
 ### Executing program
+
+* To create your subnet, run the following command and follow the prompts
+* '/ADTKNKey' in this case is the path to a file where the private key to authorise gas payment for the deployment is placed.
+* You can replace this file path with your specific file path.
+
+```
+avalanche subnet deploy --fuji -k /ADTKNKey mySubnet
+
+<!-- Expected output is as follows
+
+Deploying [mySubnet] to Fuji
+Configure which addresses may make changes to the subnet.
+These addresses are known as your control keys. You will also
+set how many control keys are required to make a subnet change (the threshold). -->
+
+✔ Use fee-paying key
+```
 
 * Navigate (cd) into this project folder and install dependencies by running the following commands in the same order
 
