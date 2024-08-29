@@ -55,3 +55,19 @@ Email: aadelakun28@gmail.com
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Appendix
+Subnet has been created with ID: B4bUy9Mm3N6h4R9rCRaqZV6yLushQUUj3GJq4RMmf3XdbofwV
++--------------------+---------------------------------------------------+
+| DEPLOYMENT RESULTS |                                                   |
++--------------------+---------------------------------------------------+
+| Chain Name         | newNet                                            |
++--------------------+---------------------------------------------------+
+| Subnet ID          | B4bUy9Mm3N6h4R9rCRaqZV6yLushQUUj3GJq4RMmf3XdbofwV |
++--------------------+---------------------------------------------------+
+| VM ID              | qcvkD1oDfpdLNAoakuji4qaxmk3NDGRXmtF8uiwcDNRNG2iQP |
++--------------------+---------------------------------------------------+
+| Blockchain ID      | SeEM479dkDmobDXqWhRiwySbBnh1iAZ33nJ6FNNeZTCgkqBrW |
++--------------------+                                                   +
+| P-Chain TXID       |                                                   |
++--------------------+---------------------------------------------------+
