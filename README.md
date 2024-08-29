@@ -12,7 +12,7 @@ A practice project that demonstrates how to set up one's very own EVM subnet on 
 ### Installing
 
 * To download this program, run the following commands in your teminal, pointing to the location on your computer where the project should be
-* Make sure to be using a Unix Computer (MacOS or Linux) - only these are supported
+* Make sure to be using a Unix Computer (MacOS or Linux) - only these are supported if you want to proceed with the enture process
 
 ```
 git clone https://github.com/Adesdesk/Avalanche-Subnets.git
@@ -20,37 +20,29 @@ git clone https://github.com/Adesdesk/Avalanche-Subnets.git
 
 ### Executing program
 
-* To create your subnet, run the following command and follow the prompts
-* '/ADTKNKey' in this case is the path to a file where the private key to authorise gas payment for the deployment is placed.
-* You can replace this file path with your specific file path.
-
+* To create your subnet, deployed to the Fuji Testnet, follow the instructions in the Avalanche documentation [here](https://docs.avax.network/subnets/deploy-a-subnet/fuji-testnet)
+* This guide will help you progress seamlessly through the entire process
+* You can deploy your custom subnet to the Fuji Testnet by running the following command
 ```
 avalanche subnet deploy --fuji -k /ADTKNKey mySubnet
 
 <!-- Expected output is as follows
 
-Deploying [mySubnet] to Fuji
-Configure which addresses may make changes to the subnet.
-These addresses are known as your control keys. You will also
-set how many control keys are required to make a subnet change (the threshold). -->
+Note that </ADTKNKey> in this case represents the file path to a .pk file where the private key to de deployer account is provided
 
-✔ Use fee-paying key
+You can simply replace this with your own specific file path  -->
 ```
 
-* Navigate (cd) into this project folder and install dependencies by running the following commands in the same order
-
-```
-cd Avalanche-Subnets
-npm install
-```
+* Navigate (cd) into this project folder and copy each component contract file into [Remix](remix.ethereum.org)
+* Deploy and interact with contracts using the custom network you have imported to metamask as guided in the documentation
 
 ## Help
 
 Any advise for common problems or issues.
-```
+
 * Ensure to use a Unix Computer (MacOS or Linux)
 * Default account generated during the creation of your subnet should not be used in production
-```
+* Handle private keys with security consciousness
 
 ## Authors
 
