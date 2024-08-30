@@ -90,8 +90,7 @@ contract ADVault {
         T = total supply
         s = shares to burn
 
-        (T - s) / T = (B - a) / B 
-
+        (T - s) / T = (B - a) / B
         a = sB / T
         */
         uint256 amount = (_shares * token.balanceOf(address(this))) /

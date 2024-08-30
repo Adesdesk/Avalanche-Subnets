@@ -20,19 +20,8 @@ git clone https://github.com/Adesdesk/Avalanche-Subnets.git
 
 ### Executing program
 
-* To create your subnet, deployed to the Fuji Testnet, follow the instructions in the Avalanche documentation [here](https://docs.avax.network/subnets/deploy-a-subnet/local-network)
+* To create and deploy your subnet, follow the instructions in the Avalanche documentation [here](https://docs.avax.network/subnets/deploy-a-subnet/local-network)
 * This guide will help you progress seamlessly through the entire process
-* You can deploy your custom subnet to the Fuji Testnet by running the following command
-```
-avalanche subnet deploy --fuji -k /ADTKNKey mySubnet
-
-<!-- Expected output is as follows
-
-Note that </ADTKNKey> in this case represents the file path to a .pk file where the private key to de deployer account is provided
-
-You can simply replace this with your own specific file path  -->
-```
-
 * Navigate (cd) into this project folder and copy each component contract file into [Remix](remix.ethereum.org)
 * Deploy and interact with contracts using the custom network you have imported to metamask as guided in the documentation
 
@@ -49,6 +38,7 @@ Any advise for common problems or issues.
 Contributors names and contact info
 
 Name: Adeola David A. 
+
 Email: aadelakun28@gmail.com
 
 ## License
