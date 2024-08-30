@@ -20,7 +20,7 @@ git clone https://github.com/Adesdesk/Avalanche-Subnets.git
 
 ### Executing program
 
-* To create your subnet, deployed to the Fuji Testnet, follow the instructions in the Avalanche documentation [here](https://docs.avax.network/subnets/deploy-a-subnet/fuji-testnet)
+* To create your subnet, deployed to the Fuji Testnet, follow the instructions in the Avalanche documentation [here](https://docs.avax.network/subnets/deploy-a-subnet/local-network)
 * This guide will help you progress seamlessly through the entire process
 * You can deploy your custom subnet to the Fuji Testnet by running the following command
 ```
@@ -51,23 +51,6 @@ Contributors names and contact info
 Name: Adeola David A. 
 Email: aadelakun28@gmail.com
 
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
-
-## Appendix
-Subnet has been created with ID: B4bUy9Mm3N6h4R9rCRaqZV6yLushQUUj3GJq4RMmf3XdbofwV
-+--------------------+---------------------------------------------------+
-| DEPLOYMENT RESULTS |                                                   |
-+--------------------+---------------------------------------------------+
-| Chain Name         | newNet                                            |
-+--------------------+---------------------------------------------------+
-| Subnet ID          | B4bUy9Mm3N6h4R9rCRaqZV6yLushQUUj3GJq4RMmf3XdbofwV |
-+--------------------+---------------------------------------------------+
-| VM ID              | qcvkD1oDfpdLNAoakuji4qaxmk3NDGRXmtF8uiwcDNRNG2iQP |
-+--------------------+---------------------------------------------------+
-| Blockchain ID      | SeEM479dkDmobDXqWhRiwySbBnh1iAZ33nJ6FNNeZTCgkqBrW |
-+--------------------+                                                   +
-| P-Chain TXID       |                                                   |
-+--------------------+---------------------------------------------------+
